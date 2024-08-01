@@ -1,0 +1,19 @@
+Important links:
++ https://support.spotify.com/us/article/understanding-my-data/
+
+
+
+Key Takeaways:
+This year the data was logged from January 1st 00:00 to November 15th 23:59. What you listen from November 16th to December 31th is pretty much ignored
+
+You have to listen to a song for more than 30 seconds for it to count in your song rankings.
+
+Your top songs are calculated by play count rather than total time listened.
+
+In your top 100 playlist only the first 10 songs are sorted by play count, the rest are close but sorted by artist.
+
+Your total time listening includes podcasts.
+
+Your top artists are calculated by total play counts rather than total time listening.
+
+You can only investigate playlists that you created, not by others and by Spotify (looking for workaround)
