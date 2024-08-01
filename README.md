@@ -31,23 +31,17 @@ In Spotify Wrapped, users are assigned one of several characters based on their 
 
 ## Key Takeaways
 
-1. **Data Collection Period**:
-   - Data is logged from January 1st 00:00 to November 15th 23:59. Listening activity from November 16th to December 31st is not considered.
+1. **Data Collection Period**: Data is logged from January 1st 00:00 to November 15th 23:59. Listening activity from November 16th to December 31st is not considered.
 
-2. **Top Songs Calculation**:
-   - Top songs are calculated based on total time listened, rather than play count.
+2. **Top Songs Calculation**: Top songs are calculated based on total time listened, rather than play count.
 
-3. **Top 100 Playlist**:
-   - The first 10 songs in the Top 100 playlist are sorted by play count. The remaining songs are sorted by artist, though they are close in play count.
+3. **Top 100 Playlist**: The first 10 songs in the Top 100 playlist are sorted by play count. The remaining songs are sorted by artist, though they are close in play count.
 
-4. **Total Listening Time**:
-   - Includes both music and podcasts.
+4. **Total Listening Time**: Includes both music and podcasts.
 
-5. **Top 5 Artists Calculation**:
-   - Determined by total play counts rather than total time listening.
+5. **Top 5 Artists Calculation**: Determined by total play counts rather than total time listening.
 
-6. **Playlist Investigation**:
-   - You can only investigate playlists that you created, not those created by others or by Spotify.
+6. **Playlist Investigation**: You can only investigate playlists that you created, not those created by others or by Spotify.
 
 ## Project Structure
 
