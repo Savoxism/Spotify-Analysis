@@ -27,7 +27,7 @@ TRACK_URIS = [
 
 def get_token():
     auth_response = requests.post('https://accounts.spotify.com/api/token', 
-                                  auth=HTTPBasicAuth(CLIENT_ID, CLIENT_SECRET),
+                                      auth=HTTPBasicAuth(CLIENT_ID, CLIENT_SECRET),
                                   data={'grant_type': 'client_credentials'})
     return auth_response.json()['access_token']
 
@@ -62,19 +62,19 @@ def get_track_info(uri, token):
 #         name = get_artist_info(uri, token)
 #         print(f"{uri}: {name}")
 
-
+###################################
 # Get Top Tracks Info
-# with open('datasets/top_tracks_uris.json', 'r') as f:
-#         track_uris = json.load(f)
+with open('datasets/top_tracks_uris.json', 'r') as f:
+        track_uris = json.load(f)
 
-# token = get_token()
-# for uri in track_uris:
-#     track_info = get_track_info(uri, token)
-#     if track_info:
-#         print(f"{uri}:")
-#         print(f"  Track: {track_info['name']}")
-#         print(f"  Artist: {track_info['artist']}")
-#         print(f"  Album: {track_info['album']}")
-#         print()
-#     else:
-#         print(f"Could not fetch info for {uri}")
+token = get_token()
+for uri in track_uris:
+    track_info = get_track_info(uri, token)
+    if track_info:
+        print(f"{uri}:")
+        print(f"  Track: {track_info['name']}")
+        print(f"  Artist: {track_info['artist']}")
+        print(f"  Album: {track_info['album']}")
+        print()
+    else:
+        print(f"Could not fetch info for {uri}")
