@@ -1,10 +1,13 @@
 Important links:
 + https://support.spotify.com/us/article/understanding-my-data/
 + https://developer.spotify.com/dashboard
++ https://newsroom.spotify.com/2023-11-29/me-in-2023-streaming-habits-wrapped/
++ https://www.kaggle.com/datasets/mrmorj/dataset-of-songs-in-spotify/data
++ https://www.analyticsvidhya.com/blog/2023/03/solving-spotify-multiclass-genre-classification-problem/#Prerequisites
 
-Me in 2023: Users will see which of a dozen Spotify-created characters best describes their listening habits. Examples of characters include the Shapeshifter (“you’re quick to move from one artist to the next”), the Luminary (“you play light, upbeat music more than others”), and the Alchemist (“you create your own playlists more than others do”).\
 
-Sound Town: Users will be matched to a city based on listening data and shared artist affinity. Cities can be anywhere around the world
+Me in 2023: Users will see which of a dozen Spotify-created characters best describes their listening habits. Examples of characters include the Shapeshifter (“you’re quick to move from one artist to the next”), the Luminary (“you play light, upbeat music more than others”), and the Alchemist (“you create your own playlists more than others do”).
+
 
 Key Takeaways:
 In Spotify Wrapped, the data is logged from January 1st 00:00 to November 15th 23:59. What you listen to from November 16th to December 31th is pretty much ignored
