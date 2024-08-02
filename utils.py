@@ -35,17 +35,17 @@ def search_track(query, limit=10):
     return tracks
 
 # Example usage
-search_query = "Khong Con Ice"
+search_query = "Love Me Less"
 results = search_track(search_query, limit=5)
 
-# print(f"Search results for '{search_query}':")
-# for i, track in enumerate(results, 1):
-#     print(f"{i}. '{track['name']}' by {track['artist']}")
-#     print(f"   Track ID: {track['id']}")
-#     print(f"   Album: {track['album']}")
-#     print(f"   Release Date: {track['release_date']}")
-#     print(f"   Popularity: {track['popularity']}")
-#     print()
+print(f"Search results for '{search_query}':")
+for i, track in enumerate(results, 1):
+    print(f"{i}. '{track['name']}' by {track['artist']}")
+    print(f"   Track ID: {track['id']}")
+    print(f"   Album: {track['album']}")
+    print(f"   Release Date: {track['release_date']}")
+    print(f"   Popularity: {track['popularity']}")
+    print()
 
 # Get the track ID of the first result
 if results:

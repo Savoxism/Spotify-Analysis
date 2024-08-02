@@ -65,17 +65,17 @@ def get_track_info(uri, token):
 
 ###################################
 # Get Top Tracks Info
-# with open('datasets/top_tracks_uris.json', 'r') as f:
-#         track_uris = json.load(f)
+with open('datasets/top_tracks_uris.json', 'r') as f:
+        track_uris = json.load(f)
 
-# token = get_token()
-# for uri in track_uris:
-#     track_info = get_track_info(uri, token)
-#     if track_info:
-#         print(f"{uri}:")
-#         print(f"  Track: {track_info['name']}")
-#         print(f"  Artist: {track_info['artist']}")
-#         print(f"  Album: {track_info['album']}")
-#         print()
-#     else:
-#         print(f"Could not fetch info for {uri}")
+token = get_token()
+for uri in track_uris:
+    track_info = get_track_info(uri, token)
+    if track_info:
+        print(f"{uri}:")
+        print(f"  Track: {track_info['name']}")
+        print(f"  Artist: {track_info['artist']}")
+        print(f"  Album: {track_info['album']}")
+        print()
+    else:
+        print(f"Could not fetch info for {uri}")
