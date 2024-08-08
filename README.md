@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this project, we delve into the intricacies of Spotify Wrapped, a very interesting annual summary of a given user's personal taste in music. The most demanding task in this mini-project is to determine user's taste in music since the music's genre is not compiled when downloading data from spotify, but rather artist's genre. As a consequence, it might result in bias, and this is undesirable. Therefore, I have come up with 2 relatively simple ways to classify music genres based on their acoustic features such as tempo, danceability,... 
+In this project, we delve into the intricacies of Spotify Wrapped, a very interesting annual summary of a given user's personal taste in music. The most demanding task in this mini-project is to determine user's taste in music since the music's genre is not compiled when downloading data from spotify, but rather via the artist's genre. As a consequence, it might result in bias, and this is undesirable. Therefore, I have come up with 2 relatively simple ways to classify music genres based on their acoustic features such as tempo, danceability,... 
 
 The first, most straighforward method is via Distance Loss Function. Essentially, we use Euclidean distance to measure the similarity between songs. The smaller the Euclidean distance, the more similar two songs are from the perspective of the selected features.
 
