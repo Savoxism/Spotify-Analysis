@@ -1,7 +1,10 @@
-#
+#Project specific
 datasets
 notes.txt
 my_spotify_data
+Data
+wavelets
+mel_spectrograms
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -35,7 +35,7 @@ def search_track(query, limit=10):
     return tracks
 
 # Example usage
-search_query = "Love Me Less"
+search_query = "Never Gonna Arc North"
 results = search_track(search_query, limit=5)
 
 print(f"Search results for '{search_query}':")

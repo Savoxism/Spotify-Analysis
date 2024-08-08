@@ -2,7 +2,11 @@
 
 ## Overview
 
-In this project, we delve into the intricacies of Spotify Wrapped, focusing on the data and trends that define user listening habits over the year. Users are categorized into unique Spotify-created characters based on their listening patterns.
+In this project, we delve into the intricacies of Spotify Wrapped, a very interesting annual summary of a given user's personal taste in music. The most demanding task in this mini-project is to determine user's taste in music since the music's genre is not compiled when downloading data from spotify, but rather artist's genre. As a consequence, it might result in bias, and this is undesirable. Therefore, I have come up with 2 relatively simple ways to classify music genres based on their acoustic features such as tempo, danceability,... 
+
+The first, most straighforward method is via Distance Loss Function. Essentially, we use Euclidean distance to measure the similarity between songs. The smaller the Euclidean distance, the more similar two songs are from the perspective of the selected features.
+
+The second one would involve the use of neural network, with further enhancements such as Adam optimization algorithm, dropout regularization and batch normalization to extract relevant features and thus perform with a much more convincing accuracy.
 
 ## Key Links
 
@@ -10,11 +14,10 @@ In this project, we delve into the intricacies of Spotify Wrapped, focusing on t
 - [Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
 - [Me in 2023: Streaming Habits Wrapped](https://newsroom.spotify.com/2023-11-29/me-in-2023-streaming-habits-wrapped/)
 - [Spotify Songs Dataset on Kaggle](https://www.kaggle.com/datasets/mrmorj/dataset-of-songs-in-spotify/data)
-- [Solving Spotify Multi-Class Genre Classification Problem](https://www.analyticsvidhya.com/blog/2023/03/solving-spotify-multiclass-genre-classification-problem/#Prerequisites)
 
 ## Character Descriptions
 
-In Spotify Wrapped, users are assigned one of several characters based on their listening habits. There are 12 distinct characters
+In Spotify Wrapped, users are assigned one of several characters based on their listening habits. There are 12 distinct characters as follow:
 
 - **The Vampire**: You listen to emotional, atmospheric music more than most.
 - **The Time Traveller**: You travel back in time and listen to songs on repeat, again and again. The best tracks never get old.
@@ -35,7 +38,7 @@ In Spotify Wrapped, users are assigned one of several characters based on their 
 
 2. **Top Songs Calculation**: Top songs are calculated based on total time listened, rather than play count.
 
-3. **Top 100 Playlist**: The first 10 songs in the Top 100 playlist are sorted by play count. The remaining songs are sorted by artist, though they are close in play count.
+3. **Top 100 Playlist**: The first 10 songs in the Top 100 playlist are sorted by play count. The remaining songs are sorted by artist.
 
 4. **Total Listening Time**: Includes both music and podcasts.
 
